@@ -227,8 +227,28 @@ main .main__about{
 }
 
 
+/* Lecture 7 : portfolio  */
 
+.main__work{
+    text-align: center;
+    padding: 100px 0 100px 0;
+}
 
+.main__work h1{
+    margin-bottom: 30px;
+}
+
+.main__work p {
+    padding: 55px 0 180px 0;
+}
+
+.main__work p i{
+    color: #6c6c6c;
+}
+
+.main__work img:hover{
+    opacity: .9;
+}
 
 
 
@@ -306,5 +326,17 @@ main .main__about{
     }
     .services_cards{
         grid-template-columns: auto;
+    }
+    .line-1 img:not(:first-child){
+        display: none;
+    }
+    .line-2 img:not(:first-child){
+        display: none;
+    }
+    .line-3 img:not(:first-child){
+        display: none;
+    }
+    .line-4 img:not(:first-child){
+        display: none;
     }
 }
