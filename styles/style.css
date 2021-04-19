@@ -28,6 +28,7 @@ header{
 }
 
 /* Lecture 2 : Responsive Menu */
+
 nav{
     margin-top: 56px;
     margin-left: 31.5%;
@@ -39,15 +40,12 @@ nav{
     font-size: 14px;
     font-weight: bold;
 }
-
-.topnav a:hover{
-    border-bottom: 3px solid #fcac45;
-}
 .topnav .icon{
     display: none;
 }
 
 /* Lecture 3 : blocks landing */
+
 main{
     display: flex;
     flex-direction: column;
@@ -115,8 +113,6 @@ main .main__about{
     min-width: 100%;
 }
 
-
-
 /* Lecture 4 : Flexbox */
 
 .main__team{
@@ -130,15 +126,6 @@ main .main__about{
     font-size: 44px;
     padding-bottom: 30px;
 }
-/* 
-.line{
-    width: 100px;
-    height: 5px;
-    color: #fcac45;
-    position: relative;
-    left: 45%;
-    margin-bottom: 84px;
-} */
 
 .photo{
     background: #d7d7d7;
@@ -256,6 +243,7 @@ main .main__about{
 .main__work img:hover{
     opacity: .9;
 }
+
 /* Lecture 8 : contact form  */
 
 
@@ -328,6 +316,27 @@ h1:after{
     border-bottom: 5px solid #fcac45;
 }
 
+/* Lecture 9 : Footer  */
+
+footer{
+    width: 100%;
+    background: #222222;
+    height: 92px;
+}
+
+.social{
+    display: flex;
+    justify-content: center;
+}
+
+.social img{
+    margin-left: 12px;
+    padding: 31px 0 31px 0;
+}
+.social img:hover{
+    opacity: .8;
+    cursor: pointer;
+}
 
 @media  screen and (max-width: 1200px) {
     nav{
